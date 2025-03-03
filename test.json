@@ -1,0 +1,54 @@
+{
+    "input": {
+        "materialProperties": {
+            "linearElastic": {
+                "E_particle":1e7,
+                "E_matrix": 1e3,
+                "nu_particle": 0.3,
+                "nu_matrix": 0.3
+            },
+            "mass": {
+                "rho": 0.0
+            },
+            "particleDistribution": {
+                "volume_fraction": 0.1,
+                "num_particles": 30
+            }
+        },
+        "geometryParameters": {
+            "delDistanceMultiplier": 1.2,
+            "delDistanceBorder": 0.02
+        },
+        "meshSettings": {
+            "minSize": 0.02,
+            "maxSize": 0.04
+        },
+        "FEMSolverConfig": {}
+    },
+    "output": {
+        "Result": {
+            "E_eff": 5274.939479231208,
+            "nu_eff": 0.25681250409662426,
+            "kappa_eff": 3615.138914137173,
+            "mu_eff": 2098.538748634883
+        },
+        "WILLIS-Dilute": {
+            "E_eff": 3215.2932085479833,
+            "nu_eff": 0.2927791314034982,
+            "kappa_eff": 2586.043601950766,
+            "mu_eff": 1243.5585980790543
+        },
+        "WILLIS-SelfConsistant": {
+            "E_eff": 3309.9237404549094,
+            "nu_eff": 0.2909036175765523,
+            "kappa_eff": 2638.2759488651177,
+            "mu_eff": 1282.0181520091785
+        },
+        "Hashin-Strikman": {
+            "kappa_lower": 2614.803820831906,
+            "kappa_upper": 5721.681589092652,
+            "mu_lower": 1552.0607258354294,
+            "mu_upper": 5388.868109902769
+        }
+    }
+}
