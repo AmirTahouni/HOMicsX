@@ -1,2 +1,4 @@
 # HOMicsX
 FEniCSX Homogenization
+
+HELP!
