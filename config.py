@@ -1,7 +1,7 @@
 #-------------------------------------------------| config |------------------------------------------------#
 # File paths
-JSON_INPUT_PATH = "json_files/test.json"
-MESH_FILES_PATH = "mesh_files/"
+JSON_INPUT_PATH = "test.json"
+MESH_FILES_PATH = ""
 
 # Global constants
 DIMENSION = 3
